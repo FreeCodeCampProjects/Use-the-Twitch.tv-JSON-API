@@ -1,0 +1,137 @@
+a {
+  color: #8C6DC5;
+}
+
+.app-title {
+  font-size: 45px;
+}
+
+body {
+  background-attachment: fixed;
+  background-color: #0C0B0E;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -30px;
+  text-align: center;
+}
+
+body, h1, h2, h3, h4, h5, h6, .output-results {
+  font-weight: 300;
+}
+
+button {
+  background-color: #0C0B0E;
+  border: 0;
+  color: #B1ABBA;
+  margin: 0;
+  outline-color: transparent;
+  outline-style: none;
+}
+
+button, td {
+  padding: 0;
+}
+
+.container {
+  margin-top: -40px;
+}
+
+#display tr {
+  border-bottom: 2px solid #0C0B0E;
+}
+
+footer {
+  color: #70677E;
+  font-size: 8px;
+}
+
+footer a {
+  color: #4E3380
+}
+
+hr {
+  border: 0px solid #25222A;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+.hud {
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  width: 100%;
+}
+
+.hud td {
+  width: 75%;
+}
+
+.hud, .streams-panel, table#display {
+  width: 100%;
+}
+
+.output-results {
+  color: #B1ABBA;
+  font-size: 20px;
+}
+
+.search-box {
+  font-size: 30px;
+}
+
+.status {
+  font-size: 10px;
+  padding: 5px;
+}
+
+.status-all {
+  color: #FFFF00;
+}
+
+.status-offline {
+  color: #FF0000;
+}
+
+.status-online {
+  color: #00FF00;
+}
+
+.streams-panel {
+  background-color: #0C0B0E;
+  height: 300px;
+  overflow: auto;
+}
+
+td {
+  border-collapse: collapse;
+  border-spacing: 0;
+  height: 150px;
+  margin: 5px;
+  padding: 10px;
+  width: 33%;
+}
+
+.ui-btn {
+  float: left;
+  height: 90px;
+  margin-left: 2px;
+  width: 120px;
+}
+
+.ui-btn-selected {
+  color: #8C6DC5;
+  text-decoration: underline;
+}
+
+.ui-btn-unselected {
+  color: #B1ABBA;
+  text-decoration: none;
+}
+
+.wikipedia-logo {
+  font-size: 50px;
+}

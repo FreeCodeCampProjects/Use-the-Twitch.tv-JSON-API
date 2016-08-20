@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Twitch Stream</title>
+
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="John Martin">
+    <meta name="description" content="A Twitch streaming API project as part of a FreeCodeCamp track.">
+    <meta name="keywords" content="twitch, twitch tv, streams, api, freecodecamp">
+
+    <!-- JavaScripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- HUD -->
+    <table class="hud">
+      <tr>
+          <td>
+            <button class="ui-btn homepage-btn selector active all ui-btn-selected" id="all"><i class="fa fa-square status status-all" aria-hidden="true"></i>all</button>
+            <button class="ui-btn selector" id="online"><i class="fa fa-square status status-online" aria-hidden="true"></i>online</button>
+            <button class="ui-btn selector" id="offline"><i class="fa fa-square status status-offline" aria-hidden="true"></i>offline</button>
+    </table>
+
+    <!-- Container -->
+    <div class="container col-md-12 col-sm-12 col-xs-12" id="container">
+      <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-lg-6 col-lg-offset-3 
+                    col-md-6 col-md-offset-3 
+                    col-sm-6 col-sm-offset-3 
+                    col-xs-12 col-xs-offset-0">
+                    
+        <!-- Twitch streams panel goes here -->
+        <h1 class="wikipedia-logo">
+          <i class="fa fa-twitch" aria-hidden="true"></i>
+        </h1>
+        <h2 class="app-title">
+          twitch stream<br>
+        </h2>
+        <br>
+        <div class="streams-panel">
+          <table id="display"></table>
+        </div>
+        <hr>
+
+        <!-- Footer -->
+        <footer class="footer">
+        made by John for
+        <a href="http://www.freecodecamp.com">
+            freecodecamp
+        </a>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Additional JavaScripts -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
